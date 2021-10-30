@@ -1,0 +1,150 @@
+/* =====================================  
+   1. G E N E R A L    S E T T I N G S  
+====================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+    outline: none !important;
+    text-decoration: none !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:  #F8F8F8;
+}
+.btn, .form-control {
+    box-shadow: none !important;
+}
+.btn-orange{
+    background-color: #FF6634;
+    border-color: #FF6634;
+    color: white;
+}
+.btn-orange:hover{
+    background-color: #d5542a;
+    border-color: #d5542a;
+    color: white;
+}
+.btn-outline-orange{
+    border-color: #FF6634;
+    color: #FF6634;
+}
+.btn-outline-orange:hover{
+    background-color: #FF6634;
+    border-color: #FF6634;
+    color: white;
+}
+.text-orange{
+    color: #FF6634;
+}
+.section {
+    padding: 80px 0;
+}
+/* ============================  
+        2.  N A V B A R
+================================ */
+.navbar .nav-item{
+    /* display: block; */
+    padding: 7px 20px;
+}
+
+
+
+.masthead{
+    position: relative;
+    background-image: url('../images/bk.jpg');
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: end;
+}
+
+@media screen and (max-width: 991px) {
+    .masthead{
+        min-height: 550px;
+    }
+}
+@media screen and (max-width: 424px) {
+    .masthead{
+        min-height: 600px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .masthead{
+        min-height: 7/00px;
+    }
+}
+
+.masthead .sliding-texts {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.masthead .sliding-texts .icon{
+    position: absolute;
+}
+.masthead .sliding-texts .icon svg{
+    color: #FF6634;
+}
+.masthead .sliding-texts .icon-left {
+    top: -5px;
+    left: -30px;
+}
+.masthead .sliding-texts .icon-right {
+    bottom: -5px;
+    right: -10px;
+}
+.percent-rev{
+    position: absolute;
+    top: 50px;
+}
+.review-num{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 100px;
+    right: 0px;
+    z-index: 9;
+}
+.review-card{
+    position: absolute;
+    /* height: 90px;
+    width: 90px; */
+    top: 300px;
+    z-index: 9;
+}
+
+
+
+
+.banner{
+    background-image: url('../images/ban.png');
+    background-size: cover;
+}
+
+footer{
+    background: #1F2131;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .2s ease-in-out;
+}
+footer a:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+footer .social-icons li {
+    margin: 5px 10px;
+}
+footer .social-icons li a{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
